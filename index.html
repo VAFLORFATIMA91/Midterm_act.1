@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugaree Cafe and Gelato</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Top bar ===== -->
+<div class="topbar"><div class="wrap">
+  <div class="soc"><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M14 8V6.5c0-.7.2-1 1.2-1H17V2h-2.8C11.2 2 10 3.700 10 6v2H7.500v3.500H10V22h4V11.500h2.800L17.300 8z"/></svg></a><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.200"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg></a></div>
+  <span>Limited Time: Try our new seasonal flavors today!</span>
+</div></div>
+
+<!-- ===== Header / navigation ===== -->
+<header><div class="wrap">
+  <a href="#home" class="logo" aria-label="Sugaree home"><img src="images/logo.png" alt="Sugaree Cafe and Gelato"></a>
+  <button class="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav aria-label="Main"><ul>
+    <li><a href="#home">Home</a></li><li><a href="#menu">Menu</a></li>
+    <li><a href="#gallery">Gallery</a></li><li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li><li><a href="#about">Meet Sugaree</a></li>
+  </ul></nav>
+  <a class="reserve" href="tel:09685767159"><svg viewBox="0 0 24 24" width="42" height="42" fill="#fff"><path d="M6.600 10.800c1.400 2.800 3.800 5.100 6.600 6.600l2.200-2.200c.3-.3.700-.4 1-.2 1.100.4 2.300.6 3.600.6.600 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.600 21 3 13.400 3 4c0-.6.400-1 1-1h3.500c.6 0 1 .4 1 1 0 1.300.2 2.500.6 3.600.1.300 0 .7-.2 1z" transform="rotate(-12 12 12)"/></svg><span><small>Reserve Now!</small><b>0968 576 7159</b></span></a>
+</div></header>
+
+<!-- ===== HOME ===== -->
+<main id="home">
+  <div class="hero tall" style="--bg:url(images/cafe-interior-hero.jpg)"><div><p>Bringing You Fresh Gelato, Coffee, and More Daily</p>
+    <h1>Freshly Made, Fun Flavors</h1><br><a class="btn ghost" href="#menu">See Our Menu</a></div></div>
+  <section><div class="wrap">
+    <div class="ruled"><div><span class="eyebrow">Sugaree Cafe and Gelato</span><h2 class="title">Our Specials</h2></div></div>
+    <div class="grid g4 home-specials">
+      <a class="menuimg" href="#menu"><img src="images/thumb-pizza.jpg" alt="Pizza menu"></a><a class="menuimg" href="#menu"><img src="images/thumb-breakfast.jpg" alt="Breakfast menu"></a><a class="menuimg" href="#menu"><img src="images/thumb-burger.jpg" alt="Burger menu"></a><a class="menuimg" href="#menu"><img src="images/thumb-drinks.jpg" alt="Drinks menu"></a>
+    </div>
+    <p class="center" style="margin-top:2rem"><a class="btn ghost" style="color:var(--navy);border-color:var(--gold)" href="#menu">See Our Full Menu</a></p>
+  </div></section>
+  <section class="scanbg"><div class="wrap"><div class="scan">
+    <p style="color:var(--gold)">Explore our menu and savor fresh, unique flavors from the comfort of home.</p>
+    <h2 class="title">Scan To Order Online</h2><img class="qr" src="images/qr.png" alt="QR code to order online"></div></div></section>
+  <section><div class="wrap">
+    <div class="ruled"><div><span class="eyebrow">Get a glimpse of the flavors and atmosphere that await you.</span><h2 class="title">Discover Our Ambiance</h2></div></div>
+    <p class="center" style="margin-bottom:var(--s4)"><a class="btn ghost" style="color:var(--navy);border-color:var(--gold)" href="#gallery">View All</a></p>
+    <div class="amb" data-amb></div>
+  </div></section>
+  <section style="background:var(--cream)"><div class="wrap">
+    <div class="ruled"><div><span class="eyebrow">What our customers say</span><h2 class="title">Testimonials</h2></div></div>
+    <div class="grid g3">
+      <div class="card quote"><div class="av" style="--img:url(images/testi-1.png)"></div><span class="mark">“</span><q>The atmosphere was amazing, and every dish tasted like it was made with love. We can't wait to come back!</q><b>Maurice</b></div>
+      <div class="card quote"><div class="av" style="--img:url(images/testi-2.png)"></div><span class="mark">“</span><q>Our family had the best dining experience here! The flavors were fresh, and the service was impeccable. Highly recommend.</q><b>Rodrigues Family</b></div>
+      <div class="card quote"><div class="av" style="--img:url(images/testi-3.png)"></div><span class="mark">“</span><q>A fantastic place to unwind with delicious food and great coffee. The staff made us feel right at home!</q><b>Dolly</b></div>
+    </div>
+  </div></section>
+  <div class="banner" data-banner></div>
+  <section><div class="wrap">
+    <div class="ruled"><div><span class="eyebrow">Our Latest Blog Posts</span><h2 class="title">Sugaree's News and Culinary Stories</h2></div></div>
+    <div class="grid g3" data-blog="3"></div>
+  </div></section>
+</main>
+
+<!-- ===== ABOUT ===== -->
+<main id="about">
+  <div class="hero tall" style="--bg:url(images/dining-area.jpg)"><div><p>Bringing the community together over handcrafted flavors and a welcoming atmosphere.</p><h1>Discover the Heart of Sugaree</h1></div></div>
+  <section><div class="wrap">
+    <h2 class="title plain" style="margin-bottom:.5rem">Welcome to Sugaree Cafe and Gelato</h2>
+    <p class="center" style="max-width:420px;margin:0 auto var(--s4);font-size:.95rem">Discover the heart and flavors of Sugaree – a place where every bite brings comfort, joy, and a taste of something special.</p>
+    <div class="grid g2 welcome"><div class="ph" style="--img:url(images/team.jpg);--c1:#2f6f8f;--c2:#e5a43a"></div>
+      <div class="txt">
+        <h3>🍨 Our Culinary Passion</h3><p>Every dish at Sugaree is crafted with love, bringing together fresh ingredients and vibrant flavors for a memorable experience.</p>
+        <h3>🧑‍🤝‍🧑 A Place for Everyone</h3><p>A welcoming space for all – perfect for a quick coffee, a leisurely meal, or a sweet treat with friends.</p>
+        <h3>🌿 Freshness You Can Taste</h3><p>We prioritize freshness, with locally-sourced ingredients prepared daily for unmatched flavor in every bite.</p>
+        <h3>🍕 A Fusion of Sweet and Savory</h3><p>More than a gelato shop, Sugaree offers a diverse menu, blending traditional and unique flavors to satisfy all tastes.</p>
+        <h3>🟡 Our Commitment to Quality and Service</h3><p>Quality food and warm service are our top priorities, ensuring every visit is enjoyable and memorable.</p>
+      </div></div>
+  </div></section>
+  <section><div class="wrap">
+    <small style="color:var(--gold);letter-spacing:.04em">JOIN US TO EXPLORE VIBRANT FLAVORS, WELCOMING SPACES, AND A DINING EXPERIENCE THAT'S AS SWEET AS OUR TREATS.</small>
+    <h2 class="title plain" style="text-align:left;max-width:560px;margin:.5rem 0 var(--s4)">Experience Sugaree: Where Flavor Meets Atmosphere</h2>
+    <div class="grid g3" style="align-items:center">
+      <div style="font-size:.9rem"><p>Sugaree Cafe and Gelato was born from a passion for quality and community. Here, we believe that every meal should be a celebration of flavor and freshness.</p><br>
+        <p><i>“At Sugaree, every dish is a labor of love. Our goal is to create a space where people feel at home and every bite brings a little more joy to their day.”</i></p><br><p>— <b>Michael Strauss</b>, Owner of Sugaree Cafe and Gelato</p></div>
+      <div class="feat"><a class="feat-btn" href="#menu">➔ View Our Menu</a><img src="images/exp-sandwich.jpg" alt="Philly cheesesteak sandwich"></div>
+      <div class="side-list">
+        <h3>Mission</h3><p>To create a cozy, welcoming space where people come to savor authentic flavors and share moments of joy.</p>
+        <h3>History</h3><p>Founded with a love for quality and community, Sugaree Cafe and Gelato has grown to become a beloved spot for locals and visitors alike.</p>
+        <h3>Restaurant</h3><p>Sugaree is more than a cafe; it's a place where people, families, and food lovers gather to enjoy delicious meals in a warm, friendly atmosphere.</p></div>
+    </div>
+  </div></section>
+  <div class="banner" data-banner></div>
+  <section><div class="wrap" style="max-width:760px">
+    <h2 class="title plain" style="text-align:left">Why Choose Sugaree</h2>
+    <p>Sugaree Cafe and Gelato is more than just a place to eat – it's a space for the community. We're committed to creating memorable experiences, from our handcrafted dishes to our friendly service. Whether you're here to unwind, connect, or indulge, Sugaree is your go-to spot for a warm and welcoming atmosphere.</p>
+  </div></section>
+</main>
+
+<!-- ===== MENU ===== -->
+<main id="menu">
+  <div class="hero" style="--bg:url(images/banner-food.jpg)"><div><p>Discover fresh flavors and daily specials crafted just for you.</p><h1>Explore Our Menu</h1></div></div>
+  <section style="background:#052a43"><div class="wrap">
+    <h2 class="title" style="color:#fff">See Our Full Menu</h2>
+    <p class="center" style="color:#fff;margin-bottom:var(--s4)">Explore a variety of mouthwatering pizzas, pastas, burgers, sandwiches, and more!</p>
+    <div class="grid g2">
+      <img class="menuimg" src="images/menu-pizza.jpg" alt="Pizza Menu">
+      <img class="menuimg" src="images/menu-burger.jpg" alt="Burger and Sandwiches">
+      <img class="menuimg" src="images/menu-drinks.jpg" alt="Drinks">
+      <img class="menuimg" src="images/menu-breakfast.jpg" alt="Breakfast · Appetizer · Salad">
+      <div class="parch"><h3>Bundling Menu</h3><p><b>Bundle 1A – ₱2,049</b><br>Meat Lover Pizza 8x10, Chicken Alfredo Pasta, Iced Tea Pitcher</p><p><b>Bundle 1B – ₱1,969</b><br>Pepperoni Pizza 8x10, Sausage Bolognese Pasta, Iced Tea Pitcher</p><p><b>Bundle 2A – ₱3,499</b><br>Meat Lover Pizza 10x14, Chicken Alfredo, 2 Iced Tea Pitchers</p><p><b>Bundle 2B – ₱3,249</b><br>Pepperoni Pizza 10x14, Vodka Rigatoni, 2 Iced Tea Pitchers</p></div>
+      <div class="menucard"><h3>Pasta Menu</h3><div class="thumbs"><img src="images/pasta-alfredo.jpg" alt="Pasta Menu" loading="lazy"><img src="images/pasta-rigatoni.jpg" alt="Pasta Menu" loading="lazy"><img src="images/gnocchi-pesto.jpg" alt="Pasta Menu" loading="lazy"><img src="images/baked-ziti.jpg" alt="Pasta Menu" loading="lazy"></div></div>
+    </div>
+  </div></section>
+  <section class="scanbg"><div class="wrap"><div class="scan">
+    <p style="color:var(--gold)">Explore our menu and savor fresh, unique flavors from the comfort of home.</p>
+    <h2 class="title">Scan To Order Online</h2><img class="qr" src="images/qr.png" alt="QR code to order online"></div></div></section>
+  <div class="banner" data-banner="Discover Our Story|Experience Our Rich Heritage and Flavorful Journey|Meet Sugaree|#about"></div>
+</main>
+
+<!-- ===== GALLERY ===== -->
+<main id="gallery">
+  <div class="hero" style="--bg:url(images/dining-area.jpg)"><div><p>Step inside Sugaree Gelato &amp; Café and get a glimpse of the fun, vibrant atmosphere we've created.</p><h1>Our Gallery</h1></div></div>
+  <section><div class="wrap"><div class="grid g4 gal" data-gal="12"></div>
+    <div class="pager"><span>1</span><span>2</span><span>3</span><span>4</span><span>Next</span></div></div></section>
+  <div class="banner" data-banner></div>
+</main>
+
+<!-- ===== BLOG ===== -->
+<main id="blog">
+  <div class="hero" style="--bg:url(images/cafe-interior-hero.jpg)"><div><p>Welcome to our blog, where we share the latest updates, behind-the-scenes stories, and recipes from our kitchen.</p><h1>Sugaree's Culinary Inspirations</h1></div></div>
+  <section><div class="wrap"><div class="grid g3" data-blog="6"></div>
+    <p style="margin-top:2rem;font-weight:700">« Older Entries</p></div></section>
+  <div class="banner" data-banner></div>
+</main>
+
+<!-- ===== CONTACT ===== -->
+<main id="contact">
+  <div class="hero" style="--bg:url(images/dining-area.jpg)"><div><p>We're here to answer any questions or take your reservations. Fill out the form and we'll get back to you soon!</p><h1>Get In Touch With Us</h1></div></div>
+  <section><div class="wrap grid g2" style="gap:var(--s4)">
+    <div style="font-size:.95rem"><p>Finding us is easy! Sugaree Café is located right in the heart of Bacolod City at O Square.</p><br><p><b>O square Building, 2939 Carlos Hilado Hwy, Bacolod 6100 Bacolod City, Philippines</b></p><br><img class="map" src="images/map-contact.jpg" alt="Map to O Square"></div>
+    <div><p style="font-size:.95rem">Our doors are open to welcome you every day of the week! Whether you're craving a fresh cup of coffee or a full dining experience, here's when you can visit us:</p><br>
+      <p><b>Monday to Friday: 8:00 AM – 10:00 PM</b></p><br><p><b>Saturday to Sunday: 9:00 AM – 10:00 PM</b></p><br>
+      <form class="form" data-form>
+        <input placeholder="Name" aria-label="Name" required><input type="email" placeholder="Email Address" aria-label="Email" required>
+        <input class="full" placeholder="Phone" aria-label="Phone">
+        <textarea class="full" rows="5" placeholder="Message" aria-label="Message"></textarea>
+        <div class="full center"><button class="pill">Submit</button></div></form></div>
+  </div></section>
+  <div class="banner" data-banner></div>
+</main>
+
+<!-- ===== Shared feedback + hours ===== -->
+<section class="feedback"><div class="wrap grid">
+  <div class="fbox"><span class="eyebrow center" style="text-align:center">Customer Feedback Form</span>
+    <h2>Share Your Experience</h2><i>❦</i>
+    <form class="form" data-form>
+      <input placeholder="Name" aria-label="Name"><input placeholder="Phone" aria-label="Phone">
+      <input placeholder="Date" aria-label="Date"><select aria-label="Satisfied"><option>Were You Satisfied with the Food?</option><option>Yes</option><option>No</option></select>
+      <input placeholder="Message" aria-label="Message"><select aria-label="Recommend"><option>Would You Recommend Us</option><option>Yes</option><option>No</option></select>
+      <div class="full center"><button class="btn dark">Share My Thoughts</button></div></form></div>
+  <div class="hours"><small>Right here waiting</small><h2>Working Hours</h2><img class="open" src="images/open.png" alt="Open">
+    <p><span>Monday – Friday:</span> <b>9 am – 10 pm</b></p><p><span>Saturday – Sunday:</span> <b>8 am – 10 pm</b></p>
+    <p>Order via Foodpanda</p><img class="brand" src="images/foodpanda.png" alt="foodpanda"><img class="brand" src="images/grabfood.png" alt="GrabFood"><hr style="border-color:#fff;width:70%;margin:0 auto">
+    <p><a class="btn" href="tel:09685767159">Call: 09685767159</a></p></div>
+</div></section>
+
+<!-- ===== Footer ===== -->
+<footer><div class="wrap">
+  <div class="grid">
+    <div><a href="#home" class="logo" style="margin-bottom:1rem"><img src="images/logo.png" alt="Sugaree Cafe and Gelato"></a><p style="font-size:.9rem">At Sugaree Cafe and Gelato, we serve freshly made gelato and bakery items crafted with love. Visit us for fun, flavorful treats daily</p></div>
+    <div><h4>New Services</h4><ul><li><a href="#">Prices Drop</a></li><li><a href="#">New Products</a></li><li><a href="#">Best Sales</a></li><li><a href="#">Featured</a></li><li><a href="#contact">Contact Us</a></li><li><a href="#">Sitemap</a></li></ul></div>
+    <div><h4>Reserve Now</h4><p>Ready to reserve your spot? We're here to make it easy. Contact us anytime to secure your reservation.</p><p style="margin-top:.8rem">📞 Call us now!<br><b style="color:#fff;font-size:1.2rem;font-weight:500">0968 576 7159</b></p></div>
+    <div><h4>Our Address</h4><p>O square Building, 2939 Carlos Hilado Hwy, Bacolod 6100 Bacolod City, Philippines</p><img class="map" src="images/map-footer.jpg" alt="Map to O Square"></div>
+    <div><h4>Scan To Order Online</h4><img class="qr" src="images/qr.png" alt="QR code to order online"></div>
+  </div>
+  <p class="copy">Copyright © 2026 – Sugaree Cafe and Gelato</p>
+</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
